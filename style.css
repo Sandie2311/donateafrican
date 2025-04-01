@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: bold;
+    font-size: 16px;
+    color: rgb(149, 151, 153);
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-weight: bold;
+}
+.content{
+    background-image: linear-gradient(to right ,#383530b3,#322f2bb3),url("assert/aferica.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+.text_content{
+    /* height: 250px; */
+    width: 700px;
+    
+}
+.text_content h1{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 15px;
+}
+.text_content p{
+    text-align: center;
+    color: rgb(158, 146, 146);
+    margin-bottom: 56px;
+}
+.text_content div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.text_content div a{
+    padding: 10px 25px;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+.text_content div a:first-child{
+    background-color: orange;
+}
+.text_content div a:last-child{
+    color: orange;
+}
+.conetnt_boxes{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    padding: 0 auto;
+    width: fit-content;
+    gap: 200px;
+    background-color: transparent;
+    transform: translate(-5%,120%);
+    
+    
+}
+.conetnt_boxes div{
+    padding: 15px 15px;
+    width: 200px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 10px 500px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    
+}
+.box h1{
+    font-size: 18px;
+}
+.box p{
+    color: #3c3636;
+    text-align: center;
+}
+.box-icon{
+    width: 56px;
+    height: 56px;
+    display: inline;
+    color: orange;
+    
+}
+.content_2{
+    background-image: linear-gradient(to right ,#383530b3,#322f2bb3),url("assert/photo2.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 200px;
+    width: 100%;
+    position: relative;
+}
+.content_2_content{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 50px;
+    background-color: white;
+    transform: translateY(150%); 
+    box-shadow: 10px 20px 200px rgba(0, 0, 0,0.4);
+
+}
+.content_2_content h1{
+    font-size: 48px;
+}
+.content_2_content a{
+    padding: 10px 25px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    align-self:center;
+    background-color: orange;
+}
+.last_content{
+    height: 200px;
+    width: 100%;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 24px;
+}
+.last_content_box{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 5fr;
+    grid-template-rows: repeat(3,1fr);
+    
+}
+
+.end{
+    transform: translateY(70%);
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.end h1{
+    font-size: 32px;
+}
+.end_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,100px);
+}
+.end-icon{
+    height: 24px;
+    width: 24px;
+    stroke: orange;
+    stroke-width: 3;
+}
+.endElement{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+    padding: 100px;
+   
+}
+.endElement h1{
+    font-size: 28px;
+}
+.end_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
